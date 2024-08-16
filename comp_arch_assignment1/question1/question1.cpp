@@ -84,7 +84,6 @@ int main() {
     double speedup_recursive_memo = time_recursive / time_recursive_memo;
     double speedup_loop_memo = time_recursive / time_loop_memo;
 
-    // Display speedups
     std::cout << "Speedup of iterative method: " << speedup_loop << std::endl;
     std::cout << "Speedup of recursive method with memoization: " << speedup_recursive_memo << std::endl;
     std::cout << "Speedup of iterative method with memoization: " << speedup_loop_memo << std::endl;
